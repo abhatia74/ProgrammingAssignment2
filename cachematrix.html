@@ -180,6 +180,8 @@ pre code {
 
 ##This program uses 2 functions: makeCacheMatrix and cacheSolve to cache the matrix inverse
 
+## Function makeCacheMatrix creates a special &quot;matrix&quot; object that can cache its inverse
+
 makeCacheMatrix &lt;- function(x = matrix()) {
   m &lt;- NULL
   set &lt;- function(y) { ## this function changes the matrix stored in makeCacheMatrix 

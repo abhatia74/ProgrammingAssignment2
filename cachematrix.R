@@ -6,6 +6,8 @@
 
 ##This program uses 2 functions: makeCacheMatrix and cacheSolve to cache the matrix inverse
 
+## Function makeCacheMatrix creates a special "matrix" object that can cache its inverse
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) { ## this function changes the matrix stored in makeCacheMatrix 
